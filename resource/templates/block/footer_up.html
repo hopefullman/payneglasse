@@ -1,0 +1,86 @@
+
+
+<div class="footer_up">
+      <div class="footer_up_content">
+        <ul class='col-lg-10 col-md-10 col-sm-12 col-xs-12'>
+      {% for footer_link in data.footer_up.footer_link %}
+          <li>
+            <ul>
+              <li>
+                <p class="footer_up_li_frist_title">{{footer_link.title}}</p>
+              </li>
+              {% for link in footer_link.links %}
+              <li>
+                <i class="iconfont footer_up_icon_frist" >&#xe790;</i>
+                <span><a href="{{ pm_global.property.base_url.text }}{{link.url}}">{{link.text}}</a></span>
+              </li>
+              {% endfor %}
+            </ul>
+            
+          </li>
+          
+	{% endfor %}
+        </ul>
+
+
+<div class='col-lg-2 col-md-2 col-sm-12 col-xs-12'>
+          <p class="footer_up_li_frist_title">{{data.footer_up.footer_search.title}}</p>
+            
+              <p class="footer_up_sign">{{data.footer_up.footer_search.text}}</p>
+            
+            <div id='footer_up_li_frist_titl_enter'>
+              <p class='footer_up_fouth_li_p_second'>Enter your email address</p>
+              <div>
+
+                <span class="footer_up_search">
+                  
+                    <input class="footer_up_search_left" type="text"/>
+
+                    <span class="footer_up_search_right">Subscribe</span>
+                </div>
+
+            </div>
+            
+              <div id="footer_up_search_result">
+
+              </div>
+            
+        </div>
+
+      </div>
+    </div>
+
+    <script>
+        $(".footer_up_search_right").click(function(){
+		$(this).css("outline",'0')
+		var regex = /^([0-9A-Za-z\-_\.]+)@([0-9a-z]+\.[a-z]{2,3}(\.[a-z]{2})?)$/g;
+		var input_value=$(".footer_up_search_left").val().trim()
+
+		if(input_value==''){
+			$('#footer_up_search_result').text('This is a required field.');
+		}else if(regex.test(input_value)){
+
+			$.ajax({
+				url:"{{ pm_global.property.base_url.text }}/newsletter/subscriber/new/",
+				type:'post',
+				crossDomain:true,
+				data:{
+					"email":input_value
+				},
+				success:function(data){
+					$('#footer_up_search_result').text('');
+				},
+                error:function(err){
+				    $('#footer_up_search_result').text('There was a problem with the subscription: This email address is already assigned to another user.');
+                }
+
+
+			});
+		}else{
+			$('#footer_up_search_result').text('Please enter a valid email address (Ex: johndoe@domain.com).');
+		}
+
+
+	})
+    </script>
+

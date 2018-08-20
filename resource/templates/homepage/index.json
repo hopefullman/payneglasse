@@ -1,0 +1,855 @@
+{
+  "title": "Online Eyeglasses & Sunglasses - Prescription Glasses | Payne Glasses",
+  "content": "Index Content",
+  "banner":{
+	"imagePC":"/images/banner.jpg",
+    "imageM":"/images/share-and-save.jpg"
+},
+  "featured_glasses":{
+    "women": [
+        {
+            "brandname": "Kit Cat-Eye",
+             "price": "56",
+            "list": [
+                {
+
+                   "productname": "Kit Cat-Eye",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "9.95",
+                    "color":"url('http://1.119.194.86:8008/static/images/banner.jpg')",
+                    "sku":"1"
+                }
+            ]
+        },
+        {
+            "brandname": "bb",
+             "price": "56",
+            "list": [
+
+                {
+                    "productname": "bb",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "56",
+                    "color":"rgb(222, 171, 3)",
+                    "sku":"2"
+
+                },
+                {
+                    "productname": "cc",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/main_3__11.jpg",
+                    "price": "85625",
+                    "color":"rgb(103, 2, 1)",
+                    "sku":"3"
+                }
+            ]
+        },
+        {
+            "brandname": "cc",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "dd",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/main_3__11.jpg",
+                    "price": "151",
+                    "color":"rgb(3, 18, 150)",
+                    "sku":"4"
+                },
+                {
+                    "productname": "ee",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(148, 8, 148)",
+                    "sku":"5"
+                },
+                {
+                    "productname": "ff",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(184, 0, 0)",
+                    "sku":"6"
+
+                }
+            ]
+        },
+        {
+            "brandname": "dd",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "dd",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"7"
+                },
+                {
+                    "productname": "dsf",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"8"
+                },
+                {
+                    "productname": "dhrt",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"9"
+                }
+            ]
+        },
+        {
+            "brandname": "ee",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "dfbhgfn",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"10"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"11"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"12"
+                }
+            ]
+        },
+        {
+            "brandname": "ff",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"13"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"14"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"15"
+                }
+            ]
+        },
+        {
+            "brandname": "gg",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"16"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"17"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"18"
+                }
+            ]
+        },
+        {
+            "brandname": "hh",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"19"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"20"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"21"
+                }
+            ]
+        }
+    ],
+    "men": [
+        {
+            "brandname": "qq",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/main_3__11.jpg",
+                    "price": "12",
+                    "color":"silver",
+                    "sku":"22"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"23"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/main_3__11.jpg",
+                    "price": "12",
+                    "color":"rgb(1,18,20)",
+                    "sku":"24"
+                }
+            ]
+        },
+        {
+            "brandname": "ww",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"25"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"26"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"27"
+                }
+            ]
+        },
+        {
+            "brandname": "rr",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"28"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"29"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"30"
+                }
+            ]
+        },
+        {
+            "brandname": "tt",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"31"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"32"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"33"
+                }
+            ]
+        },
+        {
+            "brandname": "yy",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"34"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"35"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"36"
+                }
+            ]
+        },
+        {
+            "brandname": "uu",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"37"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"38"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"39"
+                }
+            ]
+        },
+        {
+            "brandname": "ii",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"40"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"41"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"42"
+                }
+            ]
+        }
+    ],
+    "kids": [
+        {
+            "brandname": "ss",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"43"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/main_3__11.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"44"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"45"
+                }
+            ]
+        },
+        {
+            "brandname": "dfg",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"46"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"47"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"48"
+                }
+            ]
+        },
+        {
+            "brandname": "dfgdf",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"49"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"50"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"51"
+                }
+            ]
+        },
+        {
+            "brandname": "gfhygj",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"52"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"53"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"54"
+                }
+            ]
+        },
+        {
+            "brandname": "xasdas",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"55"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"56"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"57"
+                }
+            ]
+        },
+        {
+            "brandname": "dfgrtytgr",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"58"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"59"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"60"
+                }
+            ]
+        },
+        {
+            "brandname": "yuuyu",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"61"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"62"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"63"
+                }
+            ]
+        },
+        {
+            "brandname": "kjhbh",
+             "price": "56",
+            "list": [
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"64"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"65"
+                },
+                {
+                    "productname": "aa",
+                    "url":"https://beta.payneglasses.com/eyeglasses/women/kit-cat-eye-17301.html?s=17301G07",
+                    "img": "http://1.119.194.86:8008/static/images/small.jpg",
+                    "price": "12",
+                    "color":"rgb(3,18,150)",
+                    "sku":"66"
+                }
+            ]
+        }
+    ]
+},
+	"footer_down": {
+      "email": {
+        "name": "Email :",
+        "text": "help@payneglasses.com",
+        "url": "/mailto:help@payneglasses.com"
+      },
+      "call": {
+        "name": "Call :",
+        "text": "415-300-1866",
+        "url": "/tel:415-300-1866"
+      },
+      "text": {
+        "name": "Text :",
+        "text": "415-300-1866",
+        "url": "/sms:415-300-1866"
+      },
+      "chat": {
+        "name": "Chat :",
+        "text": "Search or Chat"
+      },
+      "copyright": {
+        "text": "© 2017-2018 Payne Glasses LLC. All Rights Reserved."
+      },
+      "terms": {
+        "name": "Terms Of Use",
+        "url": "/terms-of-use"
+      },
+      "privacy": {
+        "name": "Privacy Policy",
+        "url": "/privacy-policy"
+      }
+    },
+  "footer_up":{
+	"footer_search":{
+		"title":"BE THE FIRST TO KNOW",
+		"text":"Get the latest information on New Products, Events and Offers. Sign up today"
+	},
+	"footer_link":[
+		{
+			"title":"GLASSES",
+			"links":[
+				{
+					"text":"Women's Eyeglasses",
+					"url":"/eyeglasses/women.html"
+				},
+				{
+					"text":"Men's Eyeglasses",
+					"url":"/eyeglasses/men.html"
+				},
+				{
+					"text":"Kids' Eyeglasses",
+					"url":"/eyeglasses/kids.html"
+				}
+			]
+		},
+		{
+			"title":"QUICK LINKS",
+			"links":[
+				{
+					"text":"Knowledge Center",
+					"url":"/knowledge-center/how-to-read-your-prescription"
+				},
+				{
+					"text":"Help Center",
+					"url":"/help-center/orders"
+				},
+				{
+					"text":"Shipping & Returns",
+					"url":"/help-center/shipping-returns"
+				},
+				{
+					"text":"How to Read Your Prescription",
+					"url":"/knowledge-center/how-to-read-your-prescription"
+				},
+				{
+					"text":"How to Measure Your PD",
+					"url":"/media/pg/PG_PD_Measure_Ruler.pdf"
+				}
+			]
+		},
+		{
+			"title":"ABOUT",
+			"links":[
+				{
+					"text":"Why Payne Glasses?",
+					"url":"/about-us"
+				},
+				{
+					"text":"Contact Us",
+					"url":"/contact-us"
+				},
+				{
+					"text":"Your Account",
+					"url":"/customer/account"
+				},
+				{
+					"text":"Your Orders",
+					"url":"/sales/order/history/"
+				}
+			]
+		},
+		{
+			"title":"FEATURED LENSES",
+			"links":[
+				{
+					"text":"Light-Responsive Blue Blockers?",
+					"url":"/light-responsive-blue-blockers"
+				},
+				{
+					"text":"1.74 High Index Lenses",
+					"url":"/1-74-high-index"
+				}
+			]
+		}
+	]
+},
+  "header":
+{
+	"menus": [
+	{ "name":"women" , "url":"/eyeglasses/women.html" },
+	{ "name":"men" , "url":"/eyeglasses/men.html" },
+	{ "name":"kids" , "url":"/eyeglasses/kids.html" }
+	],
+
+	"youraccount":{
+	"name":"your account",
+	"href":"/customer/account/login/referer/"
+	},
+	"yourself":{
+	"name":"yourself",
+	"href":"/profile/manage/switchProfile/"
+	}
+
+},
+  "notices":{
+    "notice_first": {
+        "url":"/1-74-high-index" ,
+        "title":"1.74 High Index Lenses"
+        },
+
+    "notice_sec": {
+         "url":"/light-responsive-blue-blockers" ,
+         "title":"Light Responsive Blue Blockers"
+          }
+
+},
+  "unique_software":{
+	"middle_img":"/images/man.jpg",
+	"left_content":{
+		"title":"Innovative Lens Technologies",
+		"text":"Payne Glasses uses the most advanced and cutting-edge technologies in the industry. Whether it is our 1.74 high index progressive lens, or our exclusive Blue Blocker transition lens, Payne Glasses is committed to blending excellence with comfort and style."
+	},
+	"right_content":{
+		"title":"Unique Software Driven Lens Recommendations",
+		"text":"Our unique software is a pioneer in the industry. Our advanced algorithm assess your prescription, pupillary distance, frame, as well as lenst type to provide the most comfortable fit. Our Payne Glasses Measure technology makes it possible to craft comfortable prescription glasses for customers all without needing to visit a store."
+	}
+},
+  "widget_double":{
+	"img_left":{
+			"title":"Smarter Lenses",
+			"text":"All prescription lenses are anti-scratch, coated with an anti-reflective (anti-glare) layer, and 100% UV protectant at no additional cost",
+			"img":"/images/up-left.jpg"
+	},
+	"img_right":{
+			"title":"Added Value",
+			"text":"All prescription glasses come with a premium case and a cleaning cloth",
+			"img":"/images/up-right.jpg"
+	}
+}
+}

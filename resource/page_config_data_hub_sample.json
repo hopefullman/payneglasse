@@ -1,0 +1,21 @@
+{
+  "data_source": {
+    "PG::DATA::TYPE": "FILE",
+    "PG::DATA::MULTI": true,
+    "PG::DATA::DESERIALIZE": true,
+    "PG::DATA::FILE::PATH": "mockup/plp.csv"
+  },
+  "url": [
+    "women",
+    {
+      "PG::DATA::ELEMENT::PATH": "name",
+      "PG::DATA::ELEMENT::CASE": "lower",
+      "PG::DATA::ELEMENT::BLANK": "-"
+    },
+    {
+      "PG::DATA::ELEMENT::PATH": "sku",
+      "PG::DATA::ELEMENT::CASE": "upper",
+      "PG::DATA::ELEMENT::BLANK": "-"
+    }
+  ]
+}

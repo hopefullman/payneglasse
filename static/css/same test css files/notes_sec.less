@@ -1,0 +1,233 @@
+@media only screen and (min-width: 768px){
+/*undefined var*/
+  @W:100%;
+  @H:0.21rem;
+  @LH:0.21rem;
+  @PR:relative;
+  @L:50%;
+  @ML:-50%;
+  @BG:#f90;
+  @BGT:#ffba61;
+  @MG:0rem auto;
+  @cursor:pointer;
+  @Color:#fff;
+  @Font:0.0621rem;
+/*undefined public less*/
+  .public_left{
+    cursor: @cursor;
+    font-weight: bold;
+    color: @Color;
+    text-align: center; 
+    font-size: @Font; 
+  }
+  .message_row_public{
+  width: @W/2;
+  height: @H;
+  margin: @MG;
+  a{
+  cursor:@cursor;
+  color: #fff;
+  font-weight: 300;
+  font-style:italic;
+  text-decoration: underline;
+  text-align: center;
+  display: inline-block;
+  width: 90%;
+  font-size: 0.06rem;
+  height: @H;
+  line-height: @H;
+  margin: @MG;
+   &:hover{
+    color: @Color;
+  }
+   &:link{
+    color: @Color;
+  }
+  &:active{
+    color: @Color;
+  }
+  &:visited{
+    color: @Color;
+  }
+  }
+  span{
+    .public_left;
+  }
+  b{
+    .public_left;
+  }
+}
+/* end undefined public less*/
+.message{
+  width: @W;
+  height:@H;
+  background-color: @BG;
+  border: 0px;
+  position: @PR;
+  left: @L;
+  margin-left:@ML; 
+}
+.message_container{
+ width: @W;
+ height: @H;
+ margin: @MG;
+}
+.message_show{
+ .message_container
+}
+.message_row{
+ .message_container
+}
+.message_row_left{
+  .message_row_public
+}
+
+.message_row_right{
+   background-color: @BGT;
+  .message_row_public
+}
+
+}
+
+
+@media  screen and (max-width: 768px){
+ @W:100%;
+  @H:0.35rem;
+  @LH:0.35rem;
+  @PR:relative;
+  @L:50%;
+  @ML:-50%;
+  @BG:#f90;
+  @BGT:#ffba61;
+  @MG:0rem auto;
+  @cursor:pointer;
+  @Color:#fff;
+  @Font:0.05rem;
+  .public_left{
+    height: 0.35rem;
+    margin: 0rem auto;
+  }
+  .message_row_left_public{
+  display: block;
+  width: 0.1rem;
+  height: 0.1rem;
+  line-height: 0.1rem;
+  float: right;
+  margin-right: 0.1rem;
+  margin-top: 0.13rem; 
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  text-align: center; 
+  font-size: 0.15rem; 
+
+}
+  
+.message{
+  width:@W;
+  height:0.35rem;
+  background-color: @BG;
+  border: 0px;
+  position: @PR;
+  left: @W/2;
+  margin-left:-@W/2; 
+}
+.message_container{
+  width:@W;
+ .public_left
+}
+.message_show{
+ width: @W;
+ .public_left
+
+}
+.message_row{
+ width: @W;
+ .public_left
+}
+.message_row_left{
+  width: @W;
+ height: 0.35rem;
+ margin: 0rem auto;
+  a{
+  color: #fff;
+  font-weight: 600;
+  font-style:italic;
+  text-decoration: underline;
+  text-align: center;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  display: inline-block;
+  white-space: nowrap;
+  width: 50%;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  font-size: 0.13rem;
+  margin-left: 25%;
+    &:hover{
+      color: #fff;
+    }
+    &:link{
+      color: #fff;
+    }
+    &:visited{
+      color: #fff;
+    }
+    &:active{
+      color: #fff;
+    }
+   }
+  b{
+    .message_row_left_public
+  }
+  span{
+    .message_row_left_public
+  }
+  }
+
+ .message_row_right{
+   width: @W;
+ height: 0.35rem;
+ margin: 0rem auto;
+  a{
+  color: #fff;
+  font-weight: 600;
+  font-style:italic;
+  text-decoration: underline;
+  text-align: center;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  display: inline-block;
+  white-space: nowrap;
+  width: 50%;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  font-size: 0.13rem;
+  margin-left: 25%;
+    &:hover{
+      color: #fff;
+    }
+    &:link{
+      color: #fff;
+    }
+    &:visited{
+      color: #fff;
+    }
+    &:active{
+      color: #fff;
+    }
+   }
+  b{
+    .message_row_left_public
+  }
+  span{
+    .message_row_left_public
+  }
+ }
+
+
+
+
+
+
+}

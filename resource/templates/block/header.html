@@ -1,0 +1,457 @@
+<div class="header">
+<header>
+<!-- this parts is about shadow -->
+<div class="shadow">
+  
+</div>
+<!-- this parts is about pc and pad -->
+<div class="header_div" >
+<div class="header_content" >
+    <!-- logo-->
+  	<div class="header_logo"><img src="{{ pm_global.property.static_url.text }}/images/logo.png"></div>
+    <!-- nav -->
+  	<div class="header_nav">
+  	<nav>
+  	<ul class="header_nav_ul">
+        {% for menu in data.header.menus %}
+        <li><h1><a href="{{ menu.url }}">{{ menu.name }}</a></h1></li>
+   {% endfor %}
+  	</ul>
+  	</nav>
+  	</div>
+     <!-- search -->
+  <div class="header_search">
+        <ul class="header_search_ul">
+          <li>
+          <i class="iconfont">&#xe6bf;</i>
+
+          <form class="form minisearch search_mini_form iconfont_div" action="{{pm_global.property.base_url.text}}/catalogsearch/result/" method="get" name="form_name"><input type="text" class="iconfont_div_input" placeholder='search'><div class="btn_div" ><b class="iconfont  iconfont_yellow" onclick="subform();">&#xe6bf;</b></div>
+          </form>
+          </li>
+        </ul>
+  </div>
+    <script>
+    function subform() {
+        document.form_name.submit();
+
+    }
+    </script>
+    <!--youracount person infomation -->
+    <div class="header_your">
+	  <ul class="header_your_first_ul">
+    <!-- first li -->
+	  <li>
+    <h1 class="header_your_first_ul_h1one">
+        <a href="{{pm_global.property.base_url.text}}{{data.header.youraccount.href}}">{{data.header.youraccount.name}}&nbsp;<b class="iconfont">&#xe668;</b></a>
+    </h1>
+    <!-- without login -->
+	      <div class="header_your_first_ul_div">
+	      	<h2><a url="{{pm_global.property.base_url.text}}" base_url="{{pm_global.property.base_url.text}}/customer/account/login/referer/" href="{{ pm_global.property.base_url.text }}/customer/account/login/referer/">sign in</a></h2>
+
+	      	<p><span>New customer?</span><a href="{{ pm_global.property.base_url.text }}/customer/account/create/">start here</a></p>
+	      </div>
+    <!-- after login -->
+        <div class="header_your_first_ul_div_hidden">
+          <ul class="header_your_first_ul_div_hidden_ul">
+            <li><a href="{{ pm_global.property.base_url.text }}/customer/account/">your dashboard</a></li>
+            <li><a href="{{ pm_global.property.base_url.text }}/sales/order/history/">your order</a></li>
+            <li><a href="{{ pm_global.property.base_url.text }}/customer/account/edit/">account info</a></li>
+            <li><a href="{{ pm_global.property.base_url.text }}/customer/address/">address book</a></li>
+            <li><a href="{{ pm_global.property.base_url.text }}/customer/account/logout/">sign out</a></li>
+          </ul>
+        </div>
+	  </li>
+    <!-- second li -->
+	  <li >
+	       <h1 class="header_your_first_ul_h1two"><a href="{{pm_global.property.base_url.text}}{{data.header.yourself.href}}">{{data.header.yourself.name}}&nbsp;<b class="iconfont">&#xe668;</b></a></h1>
+         <!-- without login in youracount -->
+	       <div class="header_your_first_ul_h1two_div">
+            <ul class="header_your_first_ul_ul_first">
+            	<li><a href="{{ pm_global.property.base_url.text }}/wishlist/index/index/">save frame</a></li>
+            	<li><a href="{{ pm_global.property.base_url.text }}/prescription/profile/index/">prescription</a></li>
+            	<li><a href="{{ pm_global.property.base_url.text }}/profile/manage/edit/">Profile Infomation</a></li>
+            </ul>
+            <ul class="header_your_first_ul_ul_sec">
+            	<li class="opacity">Shopping for</li>
+            <li><i class="iconfont iconfont_yellow">&#xe62f;</i>Yourself</li>
+
+            </ul>
+            <ul class="header_your_first_ul_ul_third">
+            	<li><a href="{{ pm_global.property.base_url.text }}/profile/manage/create/">New Person</a></li>
+                <li><a href="{{ pm_global.property.base_url.text }}/customer/account/login/referer/">Manage Profiles</a></li>
+            </ul>
+          </div>
+          <!--after login  show some message in youracount-->
+          <div class="header_your_first_ul_h1two_div_hidden">
+            <ul class="header_your_first_ul_ul_first_hidden">
+              <li><a href="{{ pm_global.property.base_url.text }}/wishlist/index/index/">save frame</a></li>
+              <li><a href="{{ pm_global.property.base_url.text }}/prescription/profile/index/">prescription</a></li>
+              <li><a href="{{ pm_global.property.base_url.text }}/profile/manage/edit/">Profile Infomation</a></li>
+            </ul>
+
+            <ul class="header_your_first_ul_ul_sec_hidden">
+              <li class="opacity">Shopping for</li>
+
+              <!-- <li><i class="iconfont iconfont_yellow">&#xe62f;</i><span>Yourself</span></li> -->
+
+            </ul>
+            <ul class="header_your_first_ul_ul_third_hidden">
+              <li><a href="{{ pm_global.property.base_url.text }}/profile/manage/create/">New Person</a></li>
+                <li><a href="{{ pm_global.property.base_url.text }}/profile/manage/manageProfile/">Manage Profiles</a></li>
+            </ul>
+          </div>
+	  </li>
+	  </ul>
+	</div>
+
+
+
+<!-- shoping -->
+	<div class="header_shop">
+	      <div class="header_shop_message">0</div>
+        <div class="header_shop_car">
+            <i class="iconfont "></i>
+            <!--<img src="{{ pm_global.property.static_url.text }}/images/cart.png">-->
+        <!-- no login  -->
+        <div class="header_shop_car_message">
+            <b class="pull-right header_shop_car_message_i">X</b>
+          	<div class="pull-right header_shop_car_message_div">
+          		<p>You have no items in your shopping cart.</p>
+          	</div>
+        </div>
+        <!-- after login  -->
+        <div class="header_shop_car_message_hidden">
+            <!--  top  -->
+            <div class="header_shop_car_message_hidden_b">
+            <b class="pull-right">X</b>
+            </div>
+            <div class="header_shop_car_message_hidden_top">
+            <div class="header_shop_car_message_hidden_div_first">
+            <h1>Cart Subtotal</h1><a href="{{ pm_global.property.base_url.text }}/checkout/cart/"></a><h2></h2>
+            </div>
+            <!-- checkout  -->
+            <div class="actions header_shop_car_message_hidden_div_sec">
+            <div class="primary header_shop_car_message_hidden_div_sec">
+
+            <div id="top-cart-btn-checkout" class="action primary checkout div_checkout" data-bind="attr: {title: $t('Checkout')}" title="Checkout"><span>check out</span></div>
+
+
+            <div class="extra-actions-area" data-bind="html: getCartParam('extra_actions')" >
+            <div id="minicart-amazon-pay-button" class="amazon-minicart-container">
+            <div class="amazon-button-container">
+            <div class="amazon-button-container__cell">
+            <div id="PayWithAmazon-shortcutbuttons-0">
+            <!-- <h2> -->
+           <!--  <a href="https://www.amazon.com/ap/signin"> -->
+           <img class=" amazon-button-image-2017" id="OffAmazonPaymentsWidgets0" data-metric-name="amazon-pay-button-load" data-abtest="true" src="https://d2ldlvi1yef00y.cloudfront.net/us/sandbox/en_us/amazonpay/darkgray/medium/button_T4.png"
+           >
+           <!--  </a> -->
+           <!--  </h2> -->
+            </div>
+            </div>
+
+
+            <div class="amazon-button-container__cell">
+            <div class="field-tooltip toggle">
+
+            <span  class="field-tooltip-action action-help iconfont iconfont_fontspan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&#xe505;</span>
+
+            </div>
+            <div class="field-tooltip-content" data-target="dropdown" aria-hidden="true">
+              Are you an Amazon customer? Pay now with address and payment details stored in your Amazon account.
+            </div>
+            </div>
+
+            <!-- <h3><span href="" class="iconfont ">&#xe505;</span></h3> -->
+
+
+            </div>
+            </div>
+            </div>
+
+
+            </div>
+            </div>
+            </div>
+            <!--  end top  -->
+            <!-- some message of your mincart -->
+            <div class="header_shop_car_message_hidden_div">
+            <!--  img  -->
+            <!-- <div class="header_shop_car_message_hidden_div_details">
+            <div class="header_shop_car_message_hidden_div_details_img">
+            <a href="{{ pm_global.property.base_url.text }}/kit-cat-eye-17301.html">
+            <img src="{{ pm_global.property.base_url.text }}/media/catalog/product/cache/600x300/7/3/7301-g07-main_1.jpg">
+            </a>
+            </div>
+             message of your mincart
+            <div class="header_shop_car_message_hidden_div_details_message">
+              <div class="header_shop_car_message_hidden_div_details_message_left">
+                <a href="">Kit Cat-Eye</a>
+                <p>$66.85</p>
+                <span>Qty : 1</span>
+                </div>
+              <div class="header_shop_car_message_hidden_div_details_message_rights">
+
+                 <h1>see</h1>
+                 <h2>details<em class="iconfont">&#xe698;</em></h2>
+                 <div>
+                  <h3>color</h3>
+                  <h4>color</h4>
+                 </div>
+
+               </div>
+            </div>
+            </div> -->
+            </div>
+            <!-- btn -->
+            <div class="header_shop_car_message_hidden_div_btn">
+              <a href="{{ pm_global.property.base_url.text }}/checkout/cart/">VIEW AND EDIT CART</a>
+            </div>
+        </div>
+        </div>
+  </div>
+  </div>
+</div>
+<!-- this parts is about phone -->
+<!-- this parts is about phone -->
+<!-- this parts is about phone -->
+<div class="header_div_m">
+  <div class="header_div_m_left" >
+        <b class="iconfont ">&#xe609;</b>
+  </div>
+  <div class="header_div_m_logo">
+      <a href="{{ pm_global.property.base_url.text }}">
+       <img src="{{ pm_global.property.static_url.text }}/images/logo_m.png">
+      </a>
+  </div>
+  <div class="header_div_m_shop">
+       <span class="header_div_m_shop_message">0</span>
+  	   <b class="iconfont "></b>
+      <!--<img src="{{ pm_global.property.static_url.text }}/images/cartt.png">-->
+  </div>
+</div>
+
+
+  <!-- this parts is about navbar -->
+<div class="header_div_m_left_show">
+    <div class="header_div_m_left_show_h1"><h1 class="header_div_m_left_show_h1_h1">Menu</h1> <h2 class="iconfont header_div_m_left_show_h1_h2">&#xe8e3;</h2> </div>
+
+
+  	<ul class="header_div_m_left_ul">
+     {% for menu in data.header.menus %}
+    <li><h1><a href="{{ menu.url }}">{{ menu.name }}</a></h1></li>
+    {% endfor %}
+  			<!--<li><h1><a href="{{ pm_global.property.base_url.text }}/eyeglasses/women.html">women</a></h1></li>-->
+  			<!--<li><h1><a href="{{ pm_global.property.base_url.text }}/eyeglasses/men.html">men</a></h1></li>-->
+  			<!--<li><h1><a href="{{ pm_global.property.base_url.text }}/eyeglasses/kids.html">kids</a></h1></li>-->
+  	</ul>
+  	<div class="header_div_m_left_show_search">
+  	  <h2><i class="iconfont">&#xe613;</i></h2>
+        <form action="{{ pm_global.property.base_url.text }}/catalogsearch/result/">
+  		<input type="text" placeholder="Search entire store here..." class="header_div_m_left_show_search_s">
+        </form>
+  	</div>
+</div>
+<!-- this parts is about shoping cart without login-->
+<div class="header_div_m_left_show_shop" >
+     <div class="header_div_m_left_show_shop_close"><b class="pull-right">X</b></div>
+
+
+     <div class="header_div_m_left_show_shop_message_detailes_login">
+        <h1>Cart Subtotal</h1><a href="{{ pm_global.property.base_url.text }}/checkout/cart/"></a><h2></h2>
+     </div>
+
+
+     <div class="actions header_div_m_left_show_shop_message_detailes_pay_login">
+     <div class="primary header_div_m_left_show_shop_message_detailes_pay_login">
+            <div class="login_btn"><span >check out</span></div>
+            <div class="extra-actions-area" data-bind="html: getCartParam('extra_actions')">
+            <div id="minicart-amazon-pay-button" class="amazon-minicart-container">
+            <div class="amazon-button-container">
+            <div class="amazon-button-container__cell">
+            <div id="PayWithAmazon-shortcutbuttons-0" class="login-with-amazon">
+
+            <img class=" amazon-button-image-2017" id="OffAmazonPaymentsWidgets0" data-metric-name="amazon-pay-button-load" data-abtest="true" devicepixelratio="3" src="https://d2ldlvi1yef00y.cloudfront.net/us/sandbox/en_us/amazonpay/darkgray/medium/button_T4.png">
+
+            </div>
+            </div>
+
+
+            <div class="amazon-button-container__cell">
+            <div class="field-tooltip toggle">
+             <span class="field-tooltip-action action-help iconfont iconfont_fontspan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&#xe505;</span>
+            <div class="field-tooltip-content" data-target="dropdown" aria-hidden="true">
+              Are you an Amazon customer? Pay now with address and payment details stored in your Amazon account.
+            </div>
+            </div>
+            </div>
+
+
+
+
+
+            </div>
+            </div>
+            </div>
+     </div>
+     </div>
+
+
+     <div class="header_div_m_left_show_shop_message">
+     	<div class="header_div_m_left_show_shop_message_left">
+     		<h2 class="header_div_m_left_show_shop_message_left_h2">Shopping For</h2>
+     		<div class="header_div_m_left_show_shop_message_left_div">
+     			<div class="header_div_m_left_show_shop_message_left_div_div">
+     				<h2><a href="{{ pm_global.property.base_url.text }}/customer/account/login/referer/">sign in</a></h2>
+     				<h3><span>New customer?</span><a href="{{ pm_global.property.base_url.text }}/customer/account/create/">start here</a></h3>
+     			</div>
+     		</div>
+     	</div>
+     	<div class="header_div_m_left_show_shop_message_right">
+     		<div class="header_div_m_left_show_shop_message_right_div">
+     			<h2><b class="iconfont ">&#xe62f;</b><a href="{{ pm_global.property.base_url.text }}/customer/account/login/referer/">youself</a></h2>
+     		</div>
+     		<ul class="header_div_m_left_show_shop_message_right_ul">
+     			<li><a href="{{ pm_global.property.base_url.text }}/wishlist/index/index/">save frame</a></li>
+            	<li><a href="{{ pm_global.property.base_url.text }}/prescription/profile/index/">prescription</a></li>
+            	<li><a href="{{ pm_global.property.base_url.text }}/profile/manage/edit/">Profile Infomation</a></li>
+            	<li><a href="{{ pm_global.property.base_url.text }}/profile/manage/create/">New Person</a></li>
+              <li><a href="{{ pm_global.property.base_url.text }}/profile/manage/manageProfile/">Manage Profiles</a></li>
+     		</ul>
+     	</div>
+     	<div class="header_div_m_left_show_shop_message_right_bottom">
+     		<h2>You have no items in your shopping cart.</h2>
+     	</div>
+
+      <div class="header_div_m_left_show_shop_message_right_bottom_nologin">
+
+      </div>
+      <div class="header_div_m_left_show_shop_message_right_bottom_login_btn">
+       <a href="{{ pm_global.property.base_url.text }}/checkout/cart/">view and edit cart</a>
+     </div>
+     </div>
+
+
+
+</div>
+ <!-- this parts is about shoping cart with login-->
+ <div class="header_div_m_left_show_shop_login" >
+
+     <div class="header_div_m_left_show_shop_close_login"><b class="pull-right">X</b></div>
+     <div class="header_div_m_left_show_shop_message_detailes_login">
+        <h1>Cart Subtotal</h1><a href="{{ pm_global.property.base_url.text }}/checkout/cart/"></a><h2></h2>
+     </div>
+      <div class="actions header_div_m_left_show_shop_message_detailes_pay_login">
+
+
+       <div class="primary header_div_m_left_show_shop_message_detailes_pay_login">
+            <div class="login_btn"><span>check out</span></div>
+            <div class="extra-actions-area" data-bind="html: getCartParam('extra_actions')">
+            <div id="minicart-amazon-pay-button" class="amazon-minicart-container">
+            <div class="amazon-button-container">
+            <div class="amazon-button-container__cell">
+            <div id="PayWithAmazon-shortcutbuttons-0" class="login-with-amazon">
+
+            <img class=" amazon-button-image-2017" id="OffAmazonPaymentsWidgets0" data-metric-name="amazon-pay-button-load" data-abtest="true" devicepixelratio="3" src="https://d2ldlvi1yef00y.cloudfront.net/us/sandbox/en_us/amazonpay/darkgray/medium/button_T4.png">
+
+            </div>
+            </div>
+
+
+            <div class="amazon-button-container__cell">
+            <div class="field-tooltip toggle">
+             <span class="field-tooltip-action action-help iconfont iconfont_fontspan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&#xe505;</span>
+            <div class="field-tooltip-content" data-target="dropdown" aria-hidden="true">
+              Are you an Amazon customer? Pay now with address and payment details stored in your Amazon account.
+            </div>
+            </div>
+            </div>
+
+
+
+
+
+            </div>
+            </div>
+            </div>
+     </div>
+
+
+
+
+
+
+
+
+     </div>
+     <div class="header_div_m_left_show_shop_message_login">
+      <div class="header_div_m_left_show_shop_message_left_login">
+        <h2 class="header_div_m_left_show_shop_message_left_h2_login">Shopping For</h2>
+        <div class="header_div_m_left_show_shop_message_left_div_login">
+          <div class="header_div_m_left_show_shop_message_left_div_div_login">
+            <ul>
+              <li><a href="{{ pm_global.property.base_url.text }}/customer/account/">your dashboard</a></li>
+              <li><a href="{{ pm_global.property.base_url.text }}/sales/order/history/">your orders</a></li>
+              <li><a href="{{ pm_global.property.base_url.text }}/customer/account/edit/">account info</a></li>
+              <li><a href="{{ pm_global.property.base_url.text }}/customer/address/">address book</a></li>
+              <li><a href="{{ pm_global.property.base_url.text }}/customer/account/logout/">sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header_div_m_left_show_shop_message_left_x">
+        <h2 class="header_div_m_left_show_shop_message_left_h2_x">Shopping For</h2>
+        <div class="header_div_m_left_show_shop_message_left_div_x">
+          <div class="header_div_m_left_show_shop_message_left_div_div_x">
+            <h2><a href="{{ pm_global.property.base_url.text }}/customer/account/login/referer/">sign in</a></h2>
+            <h3><span>New customer?</span><a href="{{ pm_global.property.base_url.text }}/customer/account/create/">start here</a></h3>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="header_div_m_left_show_shop_message_right_login">
+        <div class="header_div_m_left_show_shop_message_right_div_login">
+          <h2><b class="iconfont ">&#xe62f;</b><a href="">yourself</a></h2>
+        </div>
+        <ul class="header_div_m_left_show_shop_message_right_ul_login">
+              <li><a href="{{ pm_global.property.base_url.text }}/wishlist/index/index/">save frame</a></li>
+              <li><a href="{{ pm_global.property.base_url.text }}/prescription/profile/index/">prescription</a></li>
+              <li><a href="{{ pm_global.property.base_url.text }}/profile/manage/edit/">Profile Infomation</a></li>
+
+              <!--<li><a href="{{ pm_global.property.base_url.text }}/profile/manage/create/">New Person</a></li>-->
+              <!--<li><a href="{{ pm_global.property.base_url.text }}/profile/manage/manageProfile/">Manage Profiles</a></li>-->
+        </ul>
+          <ul class="header_div_m_left_show_shop_message_right_ul_loginn">
+          <li><a href="{{ pm_global.property.base_url.text }}/profile/manage/create/">New Person</a></li>
+              <li><a href="{{ pm_global.property.base_url.text }}/profile/manage/manageProfile/">Manage Profiles</a></li>
+          </ul>
+      </div>
+     </div>
+     <!-- each img and some message  -->
+     <div class="formessage">
+       <!-- <div class="header_div_m_left_show_shop_message_right_bottom_login">
+        <img src="{{ pm_global.property.base_url.text }}/media/catalog/product/cache/600x300/7/3/7301-g07-main_1.jpg">
+        <div class="header_div_m_left_show_shop_message_right_bottom_login_message">
+          <h1>name</h1>
+          <h2>$55.36</h2>
+
+          <h3>details</h3>
+          <h4>color</h4>
+          <h5>black</h5>
+        </div>
+     </div> -->
+     </div>
+
+     <div class="header_div_m_left_show_shop_message_right_bottom_login_btn">
+       <a href="{{ pm_global.property.base_url.text }}/checkout/cart/">view and edit cart</a>
+     </div>
+
+
+     <div class="header_div_m_left_show_shop_message_right_bottomm">
+     		<h2>You have no items in your shopping cart.</h2>
+     </div>
+</div>
+</header>
+</div>

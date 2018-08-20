@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}
+{{ data.data_hub.comment or 'default faq title' }}
+{% endblock %}
+{% block content %}
+{{ data.data_hub.content or '<center><h1>default faq content</h1></center>' }}
+{% endblock %}

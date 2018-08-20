@@ -1,0 +1,79 @@
+{
+  "title": "Page Manager Demo",
+  "content": "<h1>Default Content</h1>",
+  "property": {
+    "base_url": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Property",
+      "PG::DATA::DB::FILTER": {
+        "name": "base_url"
+      }
+    }
+  },
+  "link": {
+    "header": {
+      "menu": {
+        "women": {
+          "desc": "Women",
+          "link": {
+            "PG::DATA::TYPE": "DB",
+            "PG::DATA::MULTI": false,
+            "PG::DATA::DB::MODEL": "URL",
+            "PG::DATA::DB::FILTER": {
+              "name": "plp_women"
+            }
+          }
+        },
+        "men": {
+          "desc": "Men",
+          "link": {
+            "PG::DATA::TYPE": "DB",
+            "PG::DATA::MULTI": false,
+            "PG::DATA::DB::MODEL": "URL",
+            "PG::DATA::DB::FILTER": {
+              "name": "plp_men"
+            }
+          }
+        },
+        "kids": {
+          "desc": "Kids",
+          "link": {
+            "PG::DATA::TYPE": "DB",
+            "PG::DATA::MULTI": false,
+            "PG::DATA::DB::MODEL": "URL",
+            "PG::DATA::DB::FILTER": {
+              "name": "plp_kids"
+            }
+          }
+        }
+      }
+    }
+  },
+  "block": {
+    "header": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "header"
+      }
+    },
+    "footer": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "footer"
+      }
+    },
+    "copyright": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "copyright"
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "db_model_single_sample": {
+    "PG::DATA::TYPE": "DB",
+    "PG::DATA::MULTI": false,
+    "PG::DATA::DB::MODEL": "Property",
+    "PG::DATA::DB::FILTER": {
+      "name": "base_url"
+    },
+    "PG::DATA::DB::ORDER_BY": [
+      "name",
+      "-comment"
+    ]
+  },
+  "db_model_multi_sample": {
+    "PG::DATA::TYPE": "DB",
+    "PG::DATA::MULTI": true,
+    "PG::DATA::DB::MODEL": "Property",
+    "PG::DATA::DB::FILTER": {
+      "tag__name": "homepage"
+    },
+    "PG::DATA::DB::ORDER_BY": [
+      "name",
+      "-comment"
+    ]
+  },
+  "db_sql_single_sample": {
+    "PG::DATA::TYPE": "DB",
+    "PG::DATA::MULTI": false,
+    "PG::DATA::DB::SQL": "select name, comment from property where name = 'base_url'",
+    "PG::DATA::DB::COLUMN": [
+      "name",
+      "comment"
+    ],
+    "PG::DATA::DB::LABEL": "app_label"
+  },
+  "db_sql_multi_sample": {
+    "PG::DATA::TYPE": "DB",
+    "PG::DATA::MULTI": false,
+    "PG::DATA::DB::SQL": "select name, comment from property where name like '%base_url'",
+    "PG::DATA::DB::COLUMN": [
+      "name",
+      "comment"
+    ],
+    "PG::DATA::DB::LABEL": "app_label"
+  },
+  "file_single_sample": {
+    "PG::DATA::TYPE": "FILE",
+    "PG::DATA::MULTI": false,
+    "PG::DATA::FILE::PATH": "mockup/plp.csv"
+  },
+  "file_multi_sample": {
+    "PG::DATA::TYPE": "FILE",
+    "PG::DATA::MULTI": true,
+    "PG::DATA::FILE::PATH": "/Users/geekcui/Downloads/mockup/plp.csv"
+  },
+  "request_single_sample": {
+    "PG::DATA::TYPE": "REQUEST",
+    "PG::DATA::MULTI": false,
+    "PG::DATA::REQUEST::URL": "https://payneglasses.zendesk.com/embeddable/config"
+  },
+  "request_multi_sample": {
+    "PG::DATA::TYPE": "REQUEST",
+    "PG::DATA::MULTI": true,
+    "PG::DATA::REQUEST::URL": "https://payneglasses.zendesk.com/embeddable/config"
+  }
+}

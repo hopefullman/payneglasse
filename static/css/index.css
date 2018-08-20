@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+}
+.cms-home {
+  width: 100%;
+}
+.pag_wapper {
+  width: 100%;
+}
+.widget .banner {
+  width: 100%;
+  height: auto;
+  height: 1010px;
+}
+.widget_down {
+  width: 100%;
+}
+/*.smarter,.added {
+  width:50%;
+  float:left;
+  border:1px solid red;
+}
+.smarter,.added img{
+  width:100%;
+  height:auto;
+
+}*/

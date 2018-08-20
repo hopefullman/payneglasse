@@ -1,0 +1,9 @@
+{
+  "title": "pdp demo",
+  "data_hub": {
+    "sku": "123",
+    "name": "test",
+    "price": "3",
+    "color": "Red"
+  }
+}

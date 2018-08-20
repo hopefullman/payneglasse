@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}
+{{ data.title }}
+{% endblock %}
+{% block content %}
+<center>
+    <h1>This is PLP.</h1>
+    {% for sku_data in data.data_hub %}
+    <p>{{ sku_data.sku }} {{ sku_data.name }}</p>
+    {% endfor %}
+</center>
+{% endblock %}

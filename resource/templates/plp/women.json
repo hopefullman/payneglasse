@@ -1,0 +1,17 @@
+{
+  "title": "Women",
+  "data_hub": [
+    {
+      "sku": "123",
+      "name": "test1"
+    },
+    {
+      "sku": "234",
+      "name": "test2"
+    },
+    {
+      "sku": "345",
+      "name": "test3"
+    }
+  ]
+}

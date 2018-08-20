@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+
+{% block meta %}
+	{{ pm_global.block.meta.text }}
+{% endblock %}
+
+{% block title %}
+	{{ data.title or 'default title' }}
+{% endblock %}
+
+{% block stylesheet %}
+	{{ pm_global.block.style.text }}
+{% endblock %}
+
+{% block extrastylesheet %}
+{% endblock %}
+
+{% block extrahead %}
+{% endblock %}
+
+{% block javascript %}
+	{{ pm_global.block.script.text }}
+{% endblock %}
+
+{% block extrajavascript %}
+{% endblock %}
+
+{% block messages %}
+{% endblock %}
+
+{% block header %}
+    {{ pm_global.block.notices.text }}
+	{{ pm_global.block.header.text }}
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
+
+{% block content %}
+{% endblock %}
+
+{% block footer %}
+	{{ pm_global.block.footer_up.text }}
+	{{ pm_global.block.footer_down.text }}
+{% endblock %}

@@ -1,0 +1,176 @@
+{
+  "title": "Page Manager Demo",
+  "content": "<h1>Default Content</h1>",
+  "property": {
+    "base_url": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Property",
+      "PG::DATA::DB::FILTER": {
+        "name": "base_url"
+      }
+    },
+    "static_url": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Property",
+      "PG::DATA::DB::FILTER": {
+        "name": "static_url"
+      }
+    }
+
+  },
+  "link": {
+    "header": {
+      "menu": {
+        "women": {
+          "desc": "Women",
+          "link": {
+            "PG::DATA::TYPE": "DB",
+            "PG::DATA::MULTI": false,
+            "PG::DATA::DB::MODEL": "URL",
+            "PG::DATA::DB::FILTER": {
+              "name": "plp_women"
+            }
+          }
+        },
+        "men": {
+          "desc": "Men",
+          "link": {
+            "PG::DATA::TYPE": "DB",
+            "PG::DATA::MULTI": false,
+            "PG::DATA::DB::MODEL": "URL",
+            "PG::DATA::DB::FILTER": {
+              "name": "plp_men"
+            }
+          }
+        },
+        "kids": {
+          "desc": "Kids",
+          "link": {
+            "PG::DATA::TYPE": "DB",
+            "PG::DATA::MULTI": false,
+            "PG::DATA::DB::MODEL": "URL",
+            "PG::DATA::DB::FILTER": {
+              "name": "plp_kids"
+            }
+          }
+        }
+      }
+    }
+  },
+  "block": {
+    "meta": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "meta"
+      }
+    },
+    "style": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "style"
+      }
+    },
+    "script": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "script"
+      }
+    },
+    "notices": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "notices"
+      }
+    },
+     "banner": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "banner"
+      }
+    },
+      "widget_double": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "widget_double"
+      }
+    },
+   "header": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "header"
+      }
+    },
+      "widget_double": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "widget_double"
+      }
+    },
+      "featured_glasses": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "featured_glasses"
+      }
+    },
+      "unique_software": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "unique_software"
+      }
+    },
+      "footer_up": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "footer_up"
+      }
+    },
+      "footer_down": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "footer_down"
+      }
+    },
+    "footer": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "footer"
+      }
+    },
+    "copyright": {
+      "PG::DATA::TYPE": "DB",
+      "PG::DATA::MULTI": false,
+      "PG::DATA::DB::MODEL": "Block",
+      "PG::DATA::DB::FILTER": {
+        "name": "copyright"
+      }
+    }
+  }
+}

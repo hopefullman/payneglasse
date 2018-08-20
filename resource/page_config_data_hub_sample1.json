@@ -1,0 +1,26 @@
+{
+  "data_source": {
+    "PG::DATA::TYPE": "DB",
+    "PG::DATA::MULTI": true,
+    "PG::DATA::DB::MODEL": "Block",
+    "PG::DATA::DB::FILTER": {
+      "tag__name": "faq"
+    },
+    "PG::DATA::DB::ORDER_BY": [
+      "-ctime"
+    ]
+  },
+  "url": [
+    "women",
+    {
+      "PG::DATA::ELEMENT::PATH": "name",
+      "PG::DATA::ELEMENT::CASE": "lower",
+      "PG::DATA::ELEMENT::BLANK": "-"
+    },
+    {
+      "PG::DATA::ELEMENT::PATH": "sku",
+      "PG::DATA::ELEMENT::CASE": "lower",
+      "PG::DATA::ELEMENT::BLANK": "-"
+    }
+  ]
+}
