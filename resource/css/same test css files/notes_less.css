@@ -1,0 +1,351 @@
+@media only screen and (min-width: 768px) {
+  /*undefined var*/
+  /*undefined public less*/
+
+  .public_left {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.0621rem;
+  }
+  .message_row_public {
+    width: 50%;
+    height: 0.21rem;
+    margin: 0rem auto;
+  }
+  .message_row_public a {
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    display: inline-block;
+    width: 90%;
+    font-size: 0.07rem;
+    height: 0.21rem;
+    line-height: 0.21rem;
+    margin: 0rem auto;
+  }
+  .message_row_public a:hover {
+    color: #ffffff;
+  }
+  .message_row_public a:link {
+    color: #ffffff;
+  }
+  .message_row_public a:active {
+    color: #ffffff;
+  }
+  .message_row_public a:visited {
+    color: #ffffff;
+  }
+  .message_row_public span {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.0621rem;
+  }
+  .message_row_public b {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.0621rem;
+  }
+  /* end undefined public less*/
+  .message {
+    width: 100%;
+    height: 0.21rem;
+    background-color: #ff9900;
+    border: 0px;
+    position: relative;
+    left: 50%;
+    margin-left: -50%;
+  }
+  .message_container {
+    width: 100%;
+    height: 0.21rem;
+    margin: 0rem auto;
+  }
+  .message_show {
+    width: 100%;
+    height: 0.21rem;
+    margin: 0rem auto;
+  }
+  .message_row {
+    width: 100%;
+    height: 0.21rem;
+    margin: 0rem auto;
+  }
+  .message_row_left {
+    width: 50%;
+    height: 0.21rem;
+    margin: 0rem auto;
+  }
+  .message_row_left a {
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    display: inline-block;
+    width: 90%;
+    font-size: 0.055rem;
+    height: 0.21rem;
+    line-height: 0.21rem;
+    margin: 0rem auto;
+  }
+  .message_row_left a:hover {
+    color: #ffffff;
+  }
+  .message_row_left a:link {
+    color: #ffffff;
+  }
+  .message_row_left a:active {
+    color: #ffffff;
+  }
+  .message_row_left a:visited {
+    color: #ffffff;
+  }
+  .message_row_left span {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.0621rem;
+  }
+  .message_row_left_b {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.0621rem;
+  }
+  .message_row_right {
+    background-color: #ffba61;
+    width: 50%;
+    height: 0.21rem;
+    margin: 0rem auto;
+  }
+  .message_row_right a {
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    display: inline-block;
+    width: 90%;
+    font-size: 0.055rem;
+    height: 0.21rem;
+    line-height: 0.21rem;
+    margin: 0rem auto;
+  }
+  .message_row_right a:hover {
+    color: #ffffff;
+  }
+  .message_row_right a:link {
+    color: #ffffff;
+  }
+  .message_row_right a:active {
+    color: #ffffff;
+  }
+  .message_row_right a:visited {
+    color: #ffffff;
+  }
+  .message_row_right span {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.0621rem;
+  }
+  .message_row_right_b {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.0621rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .public_left {
+    height: 0.35rem;
+    margin: 0rem auto;
+  }
+  .message_row_left_public {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    line-height: 0.1rem;
+    float: right;
+    margin-right: 0.1rem;
+    margin-top: 0.13rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 0.15rem;
+  }
+  .message {
+    width: 100%;
+    height: 0.6rem;
+    background-color: #ff9900;
+    border: 0px;
+    position: relative;
+    left: 50%;
+    margin-left: -50%;
+  }
+  .message_container {
+        width: 100%;
+    height: 0.6rem;
+    margin: 0rem auto;
+  }
+  .message_show {
+    width: 100%;
+    height: 0.35rem;
+    margin: 0rem auto;
+  }
+  .message_row {
+    width: 100%;
+    height: 0.35rem;
+    margin: 0rem auto;
+  }
+  .message_row_left {
+        width: 100%;
+    height: 0.6rem;
+    margin: 0rem auto;
+    /*display: none;*/
+  }
+  .message_row_left a {
+    color: #fff;
+        font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    width: 50%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.19rem;
+    margin-left: 25%;
+  }
+  .message_row_left a:hover {
+    color: #fff;
+  }
+  .message_row_left a:link {
+    color: #fff;
+  }
+  .message_row_left a:visited {
+    color: #fff;
+  }
+  .message_row_left a:active {
+    color: #fff;
+  }
+  .message_row_left b {
+        display: block;
+    width: 0.3rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    float: right;
+    margin-right: 0.15rem;
+    margin-top: 0.15rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 0.25rem;
+  }
+  .message_row_left span {
+        display: block;
+    width: 0.3rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    float: right;
+    margin-right: 0.25rem;
+    margin-top: 0.13rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 0.25rem;
+  }
+
+ .message_row_right{
+    width: 100%;
+    height: 0.6rem;
+    margin: 0rem auto;
+    margin-left: 80%;
+    margin-top:-0.6rem;
+    display: none;
+  }
+ .message_row_right a{
+    color: #fff;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    width: 60%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.19rem;
+    margin-left: 15%;
+  }
+
+  .message_row_right a:hover {
+    color: #fff;
+  }
+  .message_row_right a:link {
+    color: #fff;
+  }
+  .message_row_right a:visited {
+    color: #fff;
+  }
+  .message_row_right a:active {
+    color: #fff;
+  }
+.message_row_right b {
+    display: block;
+    width: 0.3rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    margin-right: 0.15rem;
+    margin-top: 0.15rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 0.25rem;
+  }
+
+  .message_row_right span {
+        display: block;
+    width: 0.3rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    float: right;
+    margin-right: 0.25rem;
+    margin-top: 0.13rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 0.25rem;
+  }
+
+
+
+
+}

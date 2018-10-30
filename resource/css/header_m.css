@@ -1,0 +1,1237 @@
+@media only screen and (max-width: 991px) {
+  /*defined some variable*/
+  .pub_class1 {
+    width: 100%;
+    height: 0.8rem;
+  }
+  /*defined some variable*/
+  body {
+    overflow-x: hidden!important;
+  }
+  .positionfixed{
+    position: fixed;
+    top: 0px;
+  }
+  .positionrelative{
+    position: relative;
+  }
+   .positionabsolute{
+    position: absolute;
+  }
+  .ph{
+    height:450px!important;
+  }
+  .pmh{
+    height: 650px!important;
+  }
+  .showposition{
+    position: fixed;
+    top: 0px;
+  }
+    .htmlmove{
+      height: 100%;
+    overflow: hidden;
+  }
+  .bodymove{
+
+    margin-left: 70%;
+    overflow: hidden;
+  }
+  .gd{
+    height: 100%;
+    /*overflow: hidden;*/
+  }
+  header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    left: 50%;
+    margin-left: -50%;
+    z-index: 999;
+    background-color: #101010;
+
+    /*overflow: hidden;*/
+  }
+  .header_content {
+    display: none;
+  }
+
+
+  .header_div_m {
+    width: 100%;
+    height: 60px;
+    margin: 0px auto;
+  }
+  .header_div_m_left {
+    position: absolute;
+    left: 50%;
+    width: 20%;
+    height: 60px;
+    /* background-color: red; */
+    margin: 0rem auto 0rem -50%;
+  }
+  .header_div_m_left b {
+    margin-left: 15px;
+    display: block;
+    width: 22px;
+    line-height: 60px;
+    height: 60px;
+    font-size: 23px;
+    color: #f90;
+    /*margin-top: 0.05rem ;*/
+    -moz-user-select: none;
+    /*ff*/
+    -webkit-user-select: none;
+    /*webkit*/
+    -ms-user-select: none;
+    /*IE10*/
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .header_div_m_logo {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 60px;
+    margin: 0px auto 0rem -25%;
+    /* background-color: red; */
+  }
+  .header_div_m_logo>a{
+  display: block;
+
+}
+  .header_div_m_logo img {
+       display: block;
+    width: 53px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+
+  .header_div_m_shop {
+    position: absolute;
+    width: 20%;
+    height: 60px;
+    left: 50%;
+    margin: 0rem auto 0rem 30%;
+    padding-right:8px;
+    /*background-color: red;*/
+  }
+  .header_div_m_shop b {
+    clear: both;
+    float: right;
+    display: block;
+    width: 50px;
+    height: 40px;
+    color: #f90;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url(../images/cartt.png);
+    background-repeat: no-repeat;
+    background-size: 33px;
+    background-position: 70%;
+    cursor: pointer;
+  }
+  .header_div_m_shop_message {
+       text-align: center;
+    clear: both;
+    float: right;
+    display: block;
+    width: 50px;
+    height: 10px;
+    margin: 0rem auto 0px;
+    font-size: 15px;
+
+    color: #f90;
+    padding-top: 10px;
+
+
+  }
+  .header_div_m_left_show {
+
+    position: absolute;
+    top: -52px;
+    margin-left: -70%;
+    width: 70%;
+    background-color: #fff;
+    opacity: 1;
+    box-shadow: 1px 0px 1px #888888;
+    -webkit-box-shadow: 1px 0px 1px #888888;
+    -moz-box-shadow: 1px 0px 1px #888888;
+    -ms-box-shadow: 1px 0px 1px #888888;
+
+  }
+  .header_div_m_left_show_h1 {
+    width: 100%;
+    height: 71px;
+    margin: 0rem auto 0px;
+    clear: both;
+  }
+  .header_div_m_left_show_h1_h1 {
+    display: block;
+    width: 33.5%;
+    height: 71px;
+    margin: 0px auto;
+    line-height: 71px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #f90;
+    color: white;
+    float: left;
+    cursor: pointer;
+
+  }
+  .header_div_m_left_show_h1_h2 {
+    display: block;
+    float: right;
+    width:66.5%;
+    height: 30px;
+    text-align: center;
+    font-size: 15px!important;
+    color: #444;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: 0px;
+    cursor: default;
+
+  }
+  .header_div_m_left_ul {
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    /* background-color: red;*/
+  }
+  .header_div_m_left_ul li {
+    width: 100%;
+    height: 42px;
+    margin: 0px auto;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  .header_div_m_left_ul h1 {
+    display: block;
+    width: 100%;
+    height: 42px;
+    margin: 0rem auto;
+  }
+  .header_div_m_left_ul h1 a {
+    display: block;
+    width: 95%;
+    height: 42px;
+    line-height: 42px;
+    margin: 0rem auto;
+    font-size: 13px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777;
+    text-indent: 4px;
+  }
+  .header_div_m_left_ul h1 a:hover{
+
+    color: #f90;
+  }
+  .header_div_m_left_show_search {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    /*background-color: #add;*/
+    /*border-bottom: 1px solid #f90;*/
+  }
+  .header_div_m_left_show_search h2 {
+    width: 95%;
+    height: 30px;
+    margin: 0px auto;
+    display: block;
+    color: #000;
+    cursor: default;
+  }
+  .header_div_m_left_show_search h2 i {
+    font-size: 20px;
+    color: #f90;
+    font-weight: 900;
+
+  }
+  .header_div_m_left_show_search input {
+    width: 95%;
+    height: 38px;
+    margin: 16px auto;
+    border-radius: 5px;
+    display: none;
+    font-size:15px;
+    margin-left: 3%;
+    outline: 0px;
+    border: 1px solid #cccccc;
+    text-indent: 10px;
+
+  }
+     .header_div_m_left_show_search input::-webkit-input-placeholder{
+            color:#ddd;
+       font-size: 10px;
+
+        }
+   .header_div_m_left_show_search input::-ms-input-placeholder{
+            color:#ddd;
+       font-size: 10px;
+
+        }
+
+
+
+
+
+  /*phone shoping*/
+  .header_div_m_left_show_shop {
+    width: 94%;
+    height: 372px;
+    position: absolute;
+    right: 50%;
+    margin-right: -48%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: 6px solid #f90;
+    /* border-radius: 0.15rem; */
+    display: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow-y: scroll;
+  }
+  .header_div_m_left_show_shop_close {
+        width: 96%;
+    height: 30px;
+    margin: 0rem auto 15px;
+
+  }
+  .header_div_m_left_show_shop_close b {
+        -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+    color: #ddd;
+    cursor: pointer;
+    height: 30px;
+    font-weight: 900;
+    line-height: 30px;
+  }
+  .header_div_m_left_show_shop_close b:hover {
+    color: #aaa;
+  }
+  .header_div_m_left_show_shop_close b:active {
+    color: #f90;
+  }
+  .header_div_m_left_show_shop_message {
+    width: 96%;
+    height: 246px;
+    margin: 0px auto;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    /*overflow: hidden;*/
+  }
+  .header_div_m_left_show_shop_message_left {
+    width: 45%;
+    /*height: 246px;*/
+    float: left;
+
+    /*border-left: 1px solid #ccc;*/
+    /*background-color: blue; */
+  }
+  .header_div_m_left_show_shop_message_left_h2 {
+    width: 101%;
+    display: block;
+    height: 34px;
+    color: #f90;
+    line-height: 34px;
+    font-size: 15px;
+    font-weight: 300;
+    text-indent: 9px;
+    border-left: 3px solid #f90;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #fff8f2;
+    text-overflow:ellipsis;
+white-space:nowrap;
+overflow:hidden;
+  }
+  .header_div_m_left_show_shop_message_left_div {
+    width: 100%;
+    height: auto;
+
+    border-top: 1px solid #ccc;
+
+    margin-top: 0px;
+    border-radius: 2px;
+  }
+  .header_div_m_left_show_shop_message_left_div_div {
+    width: 100%;
+    height: 1.3rem;
+    /*background-color: #acd;*/
+  }
+  .header_div_m_left_show_shop_message_left_div_div h2 {
+    margin: 0.15rem auto 0px;
+    width: 75%;
+    height: 38px;
+    line-height: 38px;
+
+    display: block;
+
+
+    border-radius: 3px;
+    color: #fff;
+  }
+  .header_div_m_left_show_shop_message_left_div_div h2 a {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    display: block;
+    background-color: #ffb454;
+    font-size: 16px;
+    border-radius: 3px;
+    color: #fff;
+  }
+  .header_div_m_left_show_shop_message_left_div_div h2 a:hover {
+    background-color: #f90;
+  }
+  .header_div_m_left_show_shop_message_left_div_div h3 {
+        margin: 0rem auto;
+    width: 100%;
+    /* height: 0.8rem; */
+    text-align: center;
+    display: block;
+    box-shadow: 0px 2px 2px #999;
+    padding: 10px;
+  }
+  .header_div_m_left_show_shop_message_left_div_div h3 span {
+    color: #000;
+    /* display: block; */
+    width: 100%;
+    /* height: 0.5rem; */
+    font-size: 15px;
+    /* line-height: 0.5rem; */
+  }
+  .header_div_m_left_show_shop_message_left_div_div h3 a {
+        /* display: block; */
+    text-decoration: none;
+    color: #f90;
+    font-size: 15px;
+    /* height: 0.3rem; */
+    /* line-height: 0.3rem; */
+  }
+  .header_div_m_left_show_shop_message_left_div_div h3 a:hover {
+    text-decoration: underline;
+  }
+  .header_div_m_left_show_shop_message_right {
+    width: 54%;
+    height: 244px;
+    /*height: auto;*/
+    float: right;
+    margin-right: 1%;
+    background-color: #fff8f2;
+  }
+  .header_div_m_left_show_shop_message_right_div {
+        clear: both;
+    width: 100%;
+    height: 34px;
+    /* background-color: #f00; */
+    margin: 0px auto;
+  }
+  .header_div_m_left_show_shop_message_right_div h2 {
+        display: block;
+    width: 100%;
+    height: 34px;
+    /* background-color: #fff; */
+    margin: 0px auto;
+  }
+  .header_div_m_left_show_shop_message_right_div h2 b {
+    display: block;
+    width: 0.15rem;
+    height: 34px;
+    line-height: 34px;
+    margin: 0px auto;
+    color: #f90;
+    font-size: 15px;
+    /* background-color: #101010; */
+    float: left;
+  }
+  .header_div_m_left_show_shop_message_right_div h2 a {
+        float: left;
+    display: block;
+    width: auto;
+    height: 34px;
+    line-height: 34px;
+    margin: 0px auto;
+    margin-left: 3px;
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  .header_div_m_left_show_shop_message_right_div h2 a:hover {
+    color: #f90;
+    text-decoration: underline;
+  }
+  .header_div_m_left_show_shop_message_right_ul {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    margin: auto auto auto 0px;
+    /*border-bottom: 1px solid #aaa;*/
+    border-left: 1px solid #ccc;
+  }
+  .header_div_m_left_show_shop_message_right_ul li {
+    width: 100%;
+    height: 42px;
+    border-top: 1px solid #feddba;
+  }
+  .header_div_m_left_show_shop_message_right_ul li:hover{
+    background-color: #eee;
+  }
+  .header_div_m_left_show_shop_message_right_ul li a {
+    display: block;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    color: #f90;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 17px;
+    text-overflow:ellipsis;
+white-space:nowrap;
+overflow:hidden;
+  }
+  .header_div_m_left_show_shop_message_right_ul li:nth-child(1) {
+    border-bottom: 0px solid #f90;
+    border-top: 0px solid #f90;
+  }
+  .header_div_m_left_show_shop_message_right_ul li:nth-child(2) {
+    border-bottom: 0px solid #f90;
+    border-top: 0px solid #f90;
+  }
+  .header_div_m_left_show_shop_message_right_ul li:nth-child(3) {
+    border-bottom: 0px solid #f90;
+    border-top: 0px solid #f90;
+  }
+  .header_div_m_left_show_shop_message_right_bottom {
+    clear: both;
+    width: 100%;
+    height: 46px;
+    margin: 0px auto;
+    /*	background-color:red;*/
+  }
+  .header_div_m_left_show_shop_message_right_bottom h2 {
+    display: block;
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+    /*  background-color: blue;*/
+  }
+
+
+
+
+
+  /*login */
+  .header_div_m_left_show_shop_login {
+        width: 96%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -47%;
+    background-color: #eee;
+    border: 0.03rem solid #eee;
+    border-top: 0.1rem solid #f90;
+    border-radius: 0.15rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+     position: relative;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: 6px solid #f90;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .header_div_m_left_show_shop_close_login {
+        width: 98%;
+    height: 30px;
+    margin: 0rem auto 15px;
+  }
+  .header_div_m_left_show_shop_close_login>b{
+        -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 15px;
+    color: #ccc;
+    cursor: pointer;
+    height: 30px;
+    font-weight: 900;
+    line-height: 30px;
+  }
+   .header_div_m_left_show_shop_close_login>b:hover{
+     color: #aaa;
+
+  }
+  .header_div_m_left_show_shop_message_detailes_login {
+        width: 100%;
+    margin: 0rem auto;
+    position: relative;
+    margin-top: 20px;
+        text-align: center;
+  }
+  .header_div_m_left_show_shop_message_detailes_login h1 {
+          display: inline-block;
+    /* width: 35%; */
+    /* height: 40px; */
+    /* line-height: 40px; */
+    margin: 0px auto;
+    text-align: center;
+    font-size: 16px;
+  }
+  .header_div_m_left_show_shop_message_detailes_login a {
+        display: inline-block;
+    /* width: 30%; */
+    /* line-height: 0.5rem; */
+    font-size: 16px;
+    color: #f90;
+    margin: 0px auto;
+    /* margin-left: 5%; */
+    text-align: center;
+    color: #000;
+    text-indent: 5px;
+  }
+  .header_div_m_left_show_shop_message_detailes_login h2 {
+        display: inline-block;
+    /* width: 35%; */
+    /* height: 0.5rem; */
+    /* line-height: 0.5rem; */
+    font-size: 24px;
+    margin: 0px auto;
+    /* margin-left: 5%; */
+    font-weight: 600;
+    text-align: center;
+    text-indent: 11px;
+  }
+
+
+  .header_div_m_left_show_shop_message_detailes_pay_login {
+    position: relative;
+    width: 98%;
+    height:50px;
+    margin: 0rem auto;
+    margin-bottom: 0.1rem;
+    margin-top: 15px;
+  }
+  .login_btn{
+    display: block;
+    width: 42.5%;
+    height: 37px;
+    margin: 0px auto;
+    margin-top: 0px;
+    float: left;
+    outline: 0px;
+    border: 0px;
+  }
+  .login_btn  span{
+    display: block;
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+    margin: 0px auto;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #ffba61;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+    .login_btn span:hover{
+
+    background-color: #f90;
+
+  }
+  .extra-actions-area {
+    display: block;
+    width: 40%;
+    height: 50px;
+    margin: 0px 1.5%;
+    float: left;
+  }
+  .extra-actions-area img {
+    display: block;
+    width: 80%;
+    height: 46px;
+    cursor: pointer;
+  }
+  .field-tooltip {
+        display: block;
+    width: 10%;
+    height: 37px;
+    margin: 0px auto;
+    float: left;
+    margin-top: -30px;
+    margin-left: 82%;
+  }
+  .field-tooltip span {
+    display: block;
+    width: 100%;
+        height: 37px;
+    line-height: 37px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 22px;
+    color: #bbb;
+    font-weight: 600;
+    -moz-user-select: none;
+    /*firfox*/
+    -webkit-user-select: none;
+    /*webkit*/
+    -ms-user-select: none;
+    /*IE10*/
+    user-select: none;
+    cursor: pointer;
+  }
+    .field-tooltip span:hover{
+
+    color: #666;
+
+  }
+  .field-tooltip-content {
+    position: absolute;
+    display: none;
+    width: 270px;
+    height: 80px;
+    margin-top: -115px;
+    margin-left: -250px;
+    background-color: #fff8f2;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    color: #ccc;
+    padding: 0.08rem;
+    word-wrap: break-word;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .header_div_m_left_show_shop_message_login {
+    position: relative;
+    width: 94%;
+    height: auto;
+    margin: 0px auto;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-left: 2%;
+    overflow: auto;
+    border-left: 1px solid #ccc;
+  }
+  .header_div_m_left_show_shop_message_left_login {
+    width: 46%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    /*background-color: blue; */
+  }
+  .header_div_m_left_show_shop_message_left_h2_login {
+    width: 102%;
+    display: block;
+    height: 34px;
+    color: #f90;
+    line-height: 34px;
+    font-size: 15px;
+    font-weight: 300;
+    text-indent: 9px;
+    border-left: 3px solid #f90;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #fff8f2;
+    text-overflow:ellipsis;
+white-space:nowrap;
+overflow:hidden;
+
+  }
+  .header_div_m_left_show_shop_message_left_div_login {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #aaa;
+    border-bottom: 0px solid #aaa;*/
+    /* border-left: 0px; */
+    margin-top: 0px;
+    border-radius: 2px;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_login {
+    width: 100%;
+    height: auto;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_login {
+    width: 100%;
+    height: auto;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_login ul {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_login ul li {
+        width: 100%;
+    height: 37px;
+    border-top: 1px solid #ccc;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_login ul li a {
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    text-transform: capitalize;
+    /* margin-left: 3%; */
+    color: #222;
+    text-indent: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .header_div_m_left_show_shop_message_right_login {
+    overflow: hidden;
+    width: 54%;
+    height: auto;
+    float: right;
+    /*margin-right: 1px;*/
+    background-color: #fff8f2;
+  }
+  .header_div_m_left_show_shop_message_right_div_login {
+        clear: both;
+    width: 100%;
+    height: 34px;
+    /* background-color: #f00; */
+    margin: 0px auto;
+  }
+  .header_div_m_left_show_shop_message_right_div_login h2 {
+        display: block;
+    width: 100%;
+    height: 34px;
+    /* background-color: #fff; */
+    margin: 0px auto;
+  }
+  .header_div_m_left_show_shop_message_right_div_login h2 b {
+        display: block;
+    width: 0.15rem;
+    height: 34px;
+    line-height: 34px;
+    margin: 0px auto;
+    color: #f90;
+    font-size: 15px;
+    /* background-color: #101010; */
+    float: left;
+  }
+  .header_div_m_left_show_shop_message_right_div_login h2 a {
+    float: left;
+    display: block;
+    width: auto;
+    height: 34px;
+    line-height: 34px;
+    margin: 0px auto;
+    margin-left: 3px;
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  .header_div_m_left_show_shop_message_right_div_login h2 a:hover {
+    color: #f90;
+    text-decoration: underline;
+  }
+  .header_div_m_left_show_shop_message_right_ul_login {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    margin: auto auto auto 0px;
+    border-left: 1px solid #ccc;
+  }
+  .header_div_m_left_show_shop_message_right_ul_login li {
+    width: 97%;
+    height:42px;
+    /* border-bottom: 1px solid #f90;*/
+  }
+    .header_div_m_left_show_shop_message_right_ul_login li:hover{
+   background-color: #eee;
+  }
+  .header_div_m_left_show_shop_message_right_ul_login li a {
+    display: block;
+    width: 90%;
+    height: 42px;
+    line-height: 42px;
+    margin: 0px auto;
+    color: #f90;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .header_div_m_left_show_shop_message_right_ul_login li:nth-child(4) {
+    border-top: 1px solid #feddba;
+  }
+  .header_div_m_left_show_shop_message_right_ul_login li:nth-child(5) {
+    border-top: 1px solid #feddba;
+  }
+  .header_div_m_left_show_shop_message_right_ul_login li:nth-child(6) {
+    border-top: 1px solid #feddba;
+  }
+  .header_div_m_left_show_shop_message_right_ul_loginn {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    margin: auto auto auto 0px;
+    border-left: 1px solid #ccc;
+  }
+  .header_div_m_left_show_shop_message_right_ul_loginn li {
+    width: 97%;
+    height: 42px;
+     border-top: 1px solid #feddba;
+  }
+  .header_div_m_left_show_shop_message_right_ul_loginn li:hover{
+    background-color: #eee;
+  }
+  .header_div_m_left_show_shop_message_right_ul_loginn li a {
+    display: block;
+    width: 90%;
+    height:42px;
+    line-height: 42px;
+    margin: 0px auto;
+    color: #f90;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-transform: capitalize;
+    overflow: hidden;
+
+  }
+
+
+  .formessage {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login {
+    width: 96%;
+    height: 1.3rem;
+    margin: 22px auto ;
+    border-bottom: 1px solid #eee;
+    /* background-color: red;*/
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login a {
+    float: left;
+    display: block;
+    width: 40%;
+    height: 1.1rem;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login a img {
+    float: left;
+    display: block;
+    width: 100%;
+    height: 1.1rem;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login_message {
+    float: right;
+    display: block;
+    width: 58%;
+    height: 1.1rem;
+    /* background-color:blue;*/
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login_message h1 {
+       display: inline-block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 100;
+    /* background-color: green; */
+    font-size: 15px;
+    color: #f90;
+   margin-top: 10px;
+    cursor: pointer;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login_message h2 {
+    display: inline-block;
+    width: 35%;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    /* background-color: green; */
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login_message h3 {
+
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    /* background-color: green; */
+    font-size: 15px;
+    color: #777;
+    margin-top: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    float: right;
+    margin-right: 35%;
+    cursor: pointer;
+
+
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login_message div {
+    display: none;
+    clear: both;
+    float: right;
+    margin-right: 41%;
+    margin-top: -14px;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login_message div h4 {
+       text-transform: capitalize;
+    display: block;
+    width: 48%;
+    height: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    /* background-color: green; */
+    font-size: 15px;
+    color: #888;
+    margin: 0px 10%;
+    text-align: right;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login_message div h5 {
+         text-transform: capitalize;
+    display: block;
+    width: 48%;
+    height: 15px;
+    line-height: 15px;
+    /*font-weight: 600;*/
+    /* background-color: green; */
+    font-size: 15px;
+    color: #888;
+    margin: 0px 10%;
+    text-align: right;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login_btn {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    margin: 15px auto;
+    top: 20px;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login_btn a {
+    display: block;
+    width: 96%;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color: #f90;
+    text-transform: capitalize;
+  }
+  .header_div_m_left_show_shop_message_left_x {
+    width: 50%;
+    height: 2.5rem;
+    float: left;
+    /*background-color: blue; */
+  }
+  .header_div_m_left_show_shop_message_left_h2_x {
+    width: 100%;
+    display: block;
+    height: 0.5rem;
+    color: #f90;
+    line-height: 0.5rem;
+    font-size: 0.22rem;
+    text-indent: 0.1rem;
+    border-left: 0.015rem solid #f90;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .header_div_m_left_show_shop_message_left_div_x {
+    width: 102%;
+    height: 2.3rem;
+    /* border: 1px solid #aaa; */
+    border-top: 1px solid #aaa;
+    /* border-left: 0px; */
+    margin-top: 0px;
+    border-radius: 2px;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_x {
+    width: 100%;
+    height: 1.3rem;
+    /*background-color: #acd;*/
+  }
+  .header_div_m_left_show_shop_message_left_div_div_x h2 {
+    margin: 0.15rem auto 0px;
+    width: 75%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    display: block;
+    background-color: #f90;
+    font-size: 0.25rem;
+    border-radius: 0.05rem;
+    color: #fff;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_x h2 a {
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    display: block;
+    background-color: #f90;
+    font-size: 0.25rem;
+    border-radius: 0.05rem;
+    color: #fff;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_x h2 a:hover {
+    background-color: #e80;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_x h3 {
+    margin: 0rem auto;
+    width: 100%;
+    height: 0.8rem;
+    text-align: center;
+    display: block;
+    box-shadow: -2px 2px 2px #999999;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_x h3 span {
+    color: #000;
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_x h3 a {
+    display: block;
+    text-decoration: none;
+    color: #f90;
+    font-size: 0.155rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+  }
+  .header_div_m_left_show_shop_message_left_div_div_x h3 a:hover {
+    text-decoration: underline;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_nologin {
+    position: relative;
+    clear: both;
+    top: 15px;
+  }
+
+   .header_div_m_left_show_shop_message_right_bottomm{
+    clear: both;
+    width: 100%;
+    height: 46px;
+    margin: 0px auto;
+     margin-bottom: 30px;
+    /*	background-color:red;*/
+  }
+  .header_div_m_left_show_shop_message_right_bottomm h2 {
+    display: block;
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+    /*  background-color: blue;*/
+  }
+}
+
+
+
+@media only screen and  (max-width:411px) and (min-width: 300px){
+  .header_div_m_left_show_shop_message_right_bottom_login{
+    border: 0px;
+  }
+  .header_div_m_left_show_shop_message_right_bottom_login_message h3 {
+        display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #777;
+    text-align: center;
+    text-transform: capitalize;
+    float: right;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+.header_div_m_left_show_shop_message_right_bottom_login_message div{
+           display: none;
+    clear: both;
+    float: right;
+    margin-right: 25%;
+    margin-top: -14px;
+}
+}
+
+
+
+@media only screen and (max-width: 300px) {
+   .header_div_m_left_show_shop_message_right_bottom_login {
+
+    border-bottom: 0px solid #eee;
+    /* background-color: red;*/
+  }
+.header_div_m_left_show_shop_message_right_bottom_login_message h3{
+  display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    /* background-color: green; */
+    font-size: 15px;
+    color: #777;
+    margin-top: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    float: right;
+    margin-right: 35%;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-right: 0px;
+}
+
+  .header_div_m_left_show_shop_message_right_bottom_login_message div{
+        float: right;
+    margin-top: -15px;
+    margin-right: 15px;
+  }
+
+}
+
+
+

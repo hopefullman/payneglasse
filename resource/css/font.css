@@ -1,0 +1,31 @@
+
+  /*font-family: LatoRegular;*/
+  @font-face {
+    font-family: 'LatoRegular';
+    src:url('/static/fonts/Lato-Regular.ttf') format('truetype');
+}
+  @font-face {
+    font-family: 'LatoBold';
+    src:url('/static/fonts/Lato-bold.ttf') format('truetype');
+}
+  @font-face {
+    font-family: 'JosefinSans';
+    src:url('/static/fonts/fonts/josefin-sans/regular/JosefinSans-Regular.ttf') format('ttf');
+    src:url('/static/fonts/fonts/josefin-sans/bold/JosefinSans-Bold.ttf') format('ttf');
+    src:url('/static/fonts/fonts/josefin-sans/semi-bold/JosefinSans-SemiBold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+}
+.container{
+  padding: 0px;
+}
+  .row{
+    margin: 0px;
+  }
+  

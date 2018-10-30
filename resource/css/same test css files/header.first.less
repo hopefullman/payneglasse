@@ -1,0 +1,380 @@
+
+@media only screen and (max-width: 768px){
+  
+@w:100%;
+  @h:0.5rem;
+  @rl:relative;
+  @ab:absolute;
+  @m:0px auto;
+  @mg:0.05rem;
+  .text_public{
+     text-decoration: none;
+  }
+ 
+  .color_public{
+   color: #f90; 
+
+  }
+  .ul_public{
+    list-style-type: none;
+  }
+  
+  .margin_public{
+    margin: 0.05rem auto;
+}
+  
+  .border_bottom{
+    border-bottom: 1px solid #f90;
+  }
+  .public_block{
+    display: block;
+  width: 100%;
+}
+.absolut_left{
+  position: absolute;
+  left: 50%;
+
+
+}
+.position_public{
+     width: @w;
+     height: @h;
+  }
+  .position_absolute_public{
+     position: @ab;
+     height: @h*0.8;
+}
+header{
+  position: @ab;
+     height: @h*0.8;
+  position: relative;
+  z-index: 999;
+  left: @w*0.5;
+  margin-left: -@w/2;
+ background-color: black;
+}
+.header_div_m{
+  width: @w;
+     height: @h;
+  margin:@m;
+}
+.header_div_m_left{
+  position: @ab;
+     height: @h*0.8;
+  left: 50%;
+  width: 20%;
+  margin: 0.05rem auto 0.05rem -50%;
+  b{
+  margin-left: 0.2rem;
+  display: block;
+  width: 0.6rem;
+  line-height: 0.3rem;
+  height:0.3rem; 
+  font-size: 0.3rem;
+  .color_public;
+  .margin_public;
+}
+}
+.header_div_m_logo{
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: @h*0.6;
+  margin: 0.05rem auto 0.05rem -25%;
+  img{
+  display: block;
+  width: @h*0.8;
+  height: @h*0.6;
+  .margin_public
+ 
+}
+}
+.header_div_m_shop{
+
+   position: @ab;
+     height: @h*0.8;
+  width: 20%;
+  left: 50%;
+  margin: 0.05rem auto 0.05rem 30%;
+  b{
+  display: block;
+  width: @h*0.6;
+  height: @h*0.6;
+  font-size: 0.22rem;
+  margin:0px auto;
+  .color_public 
+}
+}
+.header_div_m_shop_message{
+  display: block;
+  width: 10%;
+  height: 0.1rem;
+  margin:0px auto;
+  font-size: 0.11rem;
+  .color_public;
+}
+.header_div_m_left_show{
+  position: absolute;
+  left: 50%;
+  margin-left: -50%;
+  width: 100%;
+  height:10rem;
+  background-color:black;
+  opacity: 0.9;
+  display: none;
+}
+.header_div_m_left_show_h1{
+  width: 90%;
+  height: 0.2rem;
+  
+  margin:0.2rem auto 0px;
+  .border_bottom
+}
+.header_div_m_left_show_h1_h1{
+  display: block;
+  width: 50%;
+  margin: 0px auto;
+  height: 0.2rem;
+  line-height: 0.2rem;
+    text-align: center;
+    font-size: 0.16rem;
+    color: #fff;
+}
+.header_div_m_left_ul{
+  list-style-type: none;
+  width: 100%;
+  height: auto;
+  background-color: red;
+  
+
+}
+.header_div_m_left_ul>li{
+   border-bottom: 1px solid #f90;
+  width: 90%;
+  height: @h*0.8;
+  margin: 0px auto;
+  overflow: hidden;
+
+  
+}
+.header_div_m_left_ul h1{
+   
+   margin: 0.05rem auto;
+  height: @h*0.6;
+display: block;
+  width: 100%;
+ 
+}
+.header_div_m_left_ul  a{
+  display: block;
+  width: 100%;
+  height: @h*0.6;
+  line-height: @h*0.6;
+  margin: 0rem auto;
+  font-size: 0.16rem;
+  color: #fff;
+  text-align: center;
+  .text_public
+}
+.header_div_m_left_show_search{
+  width: 90%;
+  height: 1rem;
+  margin: 0px auto;
+  background-color: #add;
+  .border_bottom 
+  h2{
+  width: @h*0.8;
+  height: @h*0.8;
+  margin: 0px auto;
+ display: block;
+  font-size: @h*0.8;
+  i{
+  font-size: @h*0.8;
+  color: #fff;
+}
+}
+input{
+   display: block;
+   width: 50%;
+   height: @h*0.8;
+   margin: 0.05rem auto 0rem;
+   border: 1px solid #aaa;
+   outline: 0px;
+   border-radius: 0.06rem;
+
+}
+}
+.header_div_m_left_show_shop{
+  width: 90%;
+  height: 2.9rem;
+  position: absolute;
+  right: 50%;
+  margin-right: -45%;
+  background-color: #eee;
+  border:0.03rem solid #eee;
+  border-top: 0.1rem solid #f90;
+  border-radius: 0.15rem; 
+  display: none;
+
+
+}
+.header_div_m_left_show_shop_close{
+  width: 95%;
+  height: 0.15rem;
+  
+  margin: 0.1rem auto;
+  b{
+  font-size: 0.18rem;
+  color: #aaa;
+  cursor: pointer;
+  &:hover{
+  .color_public;
+  }
+  &:active{
+  .color_public;
+  }
+}
+}
+.header_div_m_left_show_shop_message{
+  width: 90%;
+  height: 1.8rem;
+  margin:0px auto; 
+  margin-top: 0.02rem;
+  border-top: 1px solid #aaa;
+  border-bottom:1px solid #aaa; 
+  border-right:1px solid #aaa; 
+  /*overflow: hidden;*/
+
+}
+.header_div_m_left_show_shop_message_left{
+  width: 50%;
+  height: 1.8rem;
+  float: left;
+  /*background-color: blue; */
+}
+.header_div_m_left_show_shop_message_left_h2{
+
+    width: 100%;
+    display: block;
+    height: @h*0.6;
+    
+    line-height: @h*0.6;
+    font-size: 0.13rem;
+    text-indent: 0.1rem;
+    border-left: 0.015rem solid #f90;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   .color_public
+}
+.header_div_m_left_show_shop_message_left_div{
+  width: 100%;
+  height: 1.5rem;
+  border: 1px solid #aaa;
+  border-bottom: 0px solid #aaa;
+  /*border-left: 0px;*/
+  margin-top: 0px;
+  border-radius: 2px;
+}
+.header_div_m_left_show_shop_message_left_div_div{
+  width: 100%;
+  height: 0.75rem;
+  
+  h2{
+   margin:0.15rem auto 0px;
+   width: 75%;
+   height: @h*0.6;
+   line-height: @h*0.6;
+   text-align: center;
+   display: block;
+   background-color: #f90;
+   font-size: 0.15rem;
+   border-radius: 0.05rem;
+   color: #fff;
+     &:hover{
+    background-color: #e80;
+    }
+   
+  }
+
+
+}
+.header_div_m_left_show_shop_message_left_div_div h3{
+
+   margin:0rem auto ;
+   width: 100%;
+   height: @h*0.8;
+   line-height: @h*0.8;
+   text-align: center;
+   display: block;
+   font-size: 0.14rem;
+   box-shadow: 0px 2px 2px #999;
+   
+}
+.header_div_m_left_show_shop_message_left_div_div span{
+
+   color: #000;
+   
+}
+.header_div_m_left_show_shop_message_left_div_div a{
+    margin-left: 0.05rem;
+   .text_public;
+   .color_public;
+    font-size: 0.135rem;
+    &:hover{
+     text-decoration: underline;
+}
+}
+.header_div_m_left_show_shop_message_right{
+
+  width: 49%;
+  height: 1.8rem;
+  float: right;
+    margin-right: 1%;
+}
+.header_div_m_left_show_shop_message_right_div{
+      clear: both;
+  width: 100%;
+  height: @h*0.6;
+  /*background-color: #f00;*/
+  margin: 0px auto;
+  h2{
+    .public_block;
+  height: @h*0.6;
+  /*background-color: #fff;*/
+  margin: 0px auto;
+    b{
+  display: block;
+  width: 0.15rem;
+  height: @h*0.6;
+  line-height: @h*0.6;
+  margin: 0px auto;
+  .color_public;
+  font-size: 0.05rem;
+  /*background-color: black;*/
+  float: left;
+
+   }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
